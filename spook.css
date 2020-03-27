@@ -1,0 +1,207 @@
+body {
+  border-style: border-box;
+  font-family: "Permanent Marker", cursive;
+  background-color: black;
+}
+
+.container {
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+}
+
+.page {
+  background-color: white;
+  margin: 0%;
+  width: 70%;
+  max-height: 80%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.title {
+  color: black;
+  font-size: 8vw;
+  margin: 30px 20px 30px 20px;
+}
+
+#year {
+  margin-top: 20px;
+}
+#yearSelect {
+  margin-bottom: 20px;
+}
+
+select {
+  display: block;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: rgb(153, 18, 45);
+  line-height: 1.3;
+  padding: 0.6em 1.4em 0.5em 0.8em;
+  width: 20%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
+  border-radius: 0.5em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #fff;
+}
+
+select:hover {
+  border: 2px solid rgb(133, 14, 14);
+}
+
+.selectfocus {
+  border: 2px solid rgb(133, 14, 14);
+  box-shadow: 0 0 1px 3px rgba(149, 14, 14, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+
+.pulse {
+  animation: pulse 3s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.98);
+  }
+
+  50% {
+    transform: scale(1.05);
+  }
+
+  100% {
+    transform: scale(0.98);
+  }
+}
+
+#image {
+  max-width: 50%;
+  height: auto;
+  margin: 50px;
+  
+}
+
+.button {
+  cursor: pointer;
+  border: solid black;
+  border-radius: 5px;
+  color: rgb(119, 16, 16);
+  padding: 1% 2%;
+  box-shadow: 5px 10px 20px crimson;
+  transition: 0.8s;
+  margin: 50px;
+}
+
+.button:hover {
+  cursor: pointer;
+  border: solid black;
+  border-radius: 5px;
+  color: white;
+  padding: 1% 2%;
+  box-shadow: none;
+  background-color: crimson;
+  transform: translateY(10px) translateX(5px);
+}
+
+.page2 {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+
+}
+
+#header {
+
+margin: 20px;
+padding: 10px;
+width: auto;
+height: auto;
+font-size: 20px;
+
+
+}
+
+#resultContainer {
+    width: 90%;
+    height: 90%;
+    margin: 0%;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+#result {
+  
+  display:flex;
+  flex-direction: row;
+  padding: 2%;
+  color: black;
+
+}
+
+#filmInfo {
+  width: 80%;
+  
+}
+#film {
+  color: rgb(158, 35, 60)
+}
+
+.summary {
+  font-size: 12px;
+}
+
+.date {
+  color: rgb(158, 35, 60);
+  font-size: 12px;
+}
+
+#pic {
+
+  width: 20%;
+  height: 60%;
+  margin: 0% 0% 0% 2%;
+  border-radius: 20px;
+  box-shadow: 5px 10px 20px rgba(116, 16, 36, 0.6);
+
+}
+
+#seen {
+
+  width: 10%;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .page {
+    width: 90%;
+  }
+}
+
