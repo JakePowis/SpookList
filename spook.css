@@ -120,6 +120,7 @@ select:hover {
   justify-items: center;
   align-items: center;
   display: flex;
+  text-align: center;
 }
 
 .button:hover {
@@ -296,8 +297,9 @@ select:hover {
     font-size: 12px;
     line-height: 1.4;
     color: white;
-    box-shadow: 5px 10px 25px rgba(44, 41, 41, 0.767);
+    box-shadow: 5px 10px 20px rgba(44, 41, 41, 0.767);
     background-color: crimson;
+    
   }
 
   #button {
