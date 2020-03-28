@@ -35,9 +35,12 @@ button.addEventListener("click", function() {
   document.getElementById("container").style.position = "relative"
   document.getElementById("page").style.marginTop = "5%";
 
+  if (year == "All Time") {
+  movieURL = "https://api.themoviedb.org/3/discover/movie?" + apiKey + "&with_genres=27" }
+  else {
   movieURL = "https://api.themoviedb.org/3/discover/movie?" + apiKey + "&with_genres=27&primary_release_year=" + year
-  + "";
-  console.log("movie URL is: ", movieURL)
+  + "";}
+  console.log("movie URL is: ", movieURL) 
   getMovieData(movieURL)
 }); //end event listener
 
