@@ -33,14 +33,22 @@ body {
 .title {
   color: black;
   font-size: 8vw;
-  margin: 5% 2% 3% 2%;
+  margin: 3% 2% 3% 2%;
 }
 
 #year {
-  margin-top: 2%;
+  margin-top: 0%;
 }
 #yearSelect {
-  margin-bottom: 2%;
+  margin-bottom: 0%;
+  height: auto;
+}
+
+.dDown {
+
+  font-size: 16px;
+  display: flex;
+  height: 8%;
 }
 
 select {
@@ -51,9 +59,7 @@ select {
   line-height: 1.1;
   padding: 0.6em 1.4em 0.5em 0.8em;
   width: 30%;
-  height: auto;
   box-sizing: border-box;
-  margin-top: 10px;
   border: 1px solid #aaa;
   box-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.04);
   border-radius: 0.5em;
@@ -97,7 +103,7 @@ select:hover {
 #image {
   max-width: 50%;
   height: auto;
-  margin: 4%;
+  margin: 5% 2%;
 }
 
 .button {
@@ -105,11 +111,13 @@ select:hover {
   border: solid black;
   border-radius: 5px;
   color: rgb(119, 16, 16);
-  padding: 3% 2%;
+  padding: 2% 2%;
   box-shadow: 5px 10px 20px crimson;
   transition: 0.8s;
-  margin: 6%;
+  margin: 2%;
+  height: 10%;
   text-align: center;
+  line-height: 2.5;
   display: flex;
 }
 
@@ -118,7 +126,6 @@ select:hover {
   border: solid black;
   border-radius: 5px;
   color: white;
-  padding: 1% 2%;
   box-shadow: none;
   background-color: crimson;
   transform: translateY(10px) translateX(5px);
@@ -129,7 +136,6 @@ select:hover {
   border: solid black;
   border-radius: 5px;
   color: white;
-  padding: 1% 2%;
   box-shadow: none;
   background-color: crimson;
   transform: translateY(10px) translateX(5px);
@@ -204,11 +210,6 @@ select:hover {
   width: 10%;
 }
 
-.dDown {
-
-  font-size: 16px;
-  display: flex;
-}
 
 @media only screen and (max-width: 1200px) {
     .page {
@@ -290,5 +291,9 @@ select:hover {
     width: 40%;
     height: auto%;
     margin: 6% 0% 0% 0%;
+  }
+
+  .button {
+    font-size: 14px;
   }
 }
