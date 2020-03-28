@@ -96,7 +96,6 @@ select:hover {
   max-width: 50%;
   height: auto;
   margin: 50px;
-  
 }
 
 .button {
@@ -142,50 +141,41 @@ select:hover {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-
-
 }
 
 #header {
-
-margin: 20px;
-padding: 10px;
-width: auto;
-height: auto;
-font-size: 24px;
-
-
+  margin: 20px;
+  padding: 10px;
+  width: auto;
+  height: auto;
+  font-size: 24px;
 }
 
 #resultContainer {
-    width: 90%;
-    height: 90%;
-    margin: 0%;
-    background-color: inherit;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    font-size: 20px;
-    line-height: 2.5;
-
+  width: 90%;
+  height: 90%;
+  margin: 0%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  line-height: 2.5;
 }
 
 #result {
-  
-  display:flex;
+  display: flex;
   flex-direction: row;
   padding: 2%;
   color: black;
-
 }
 
 #filmInfo {
   width: 80%;
-  
 }
 #film {
   color: rgb(158, 35, 60);
-  font-size: 22px;;
+  font-size: 22px;
 }
 
 .summary {
@@ -199,98 +189,91 @@ font-size: 24px;
 }
 
 #pic {
-
   width: 20%;
   height: 60%;
   margin: 3% 0% 0% 3%;
   border-radius: 20px;
   box-shadow: 5px 10px 20px rgba(116, 16, 36, 0.6);
-
 }
 
 #seen {
-
   width: 10%;
 }
 
-
-
-
 @media only screen and (max-width: 1200px) {
-  .page {
-    width: 90%;
+    .page {
+      width: 96%;
+    }
+
+    #film {
+    font-size: 22px;
+
+    }
+
+    .summary {
+      font-size: 16px;
+    }
+
+    .date {
+      font-size: 16px;
+    }
+
+    
+  #resultContainer{
+    font-size: 18px;
+
   }
 
-  #film {
-  font-size: 22px;
-
-  }
-
-  .summary {
-    font-size: 16px;
-  }
-
-  .date {
-    font-size: 16px;
-  }
-
-  
-#resultContainer{
-  font-size: 18px;
 }
-
-}
-
-
-
 
 @media only screen and (max-width: 800px) {
   .page {
-    width: 90%;
+    width: 96%;
+  }
+
+  .page2 {
+    width: 96%;
+  }
+
+  #header {
+    font-size: 18px;
   }
 
   #film {
-  font-size: 22px;
-
+    font-size: 20px;
   }
 
   .summary {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .date {
-    font-size: 16px;
+    font-size: 14px;
   }
 
-  
-#resultContainer{
-  font-size: 18px;
+  #resultContainer {
+    font-size: 18px;
+    line-height: 1.8;
+    width: 96%;
+  }
+
+  #result {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: black;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #filmInfo {
+    width: 100%;
+  }
+
+  #pic {
+    width: 36%;
+    height: auto%;
+    margin: 6% 0% 0% 0%;
+  }
 }
-
-#result {
-  
-  display:flex;
-  flex-direction: column;
-  padding: 2%;
-  color: black;
-  width: 95%;
-  justify-content: center;
-  align-items: center;
-
-}
-
-#filmInfo {
-  width: 100%;
-  
-}
-
-#pic {
-
-  width: 36%;
-  height: auto%;
-  margin: 6% 0% 0% 0%;
-
-}
-
-
-
