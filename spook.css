@@ -117,7 +117,7 @@ select:hover {
   margin: 2%;
   height: 10%;
   text-align: center;
-  line-height: 2.5;
+  line-height: 1.4;
   display: flex;
 }
 
@@ -289,12 +289,12 @@ select:hover {
 
   #pic {
     width: 40%;
-    height: auto%;
+    height: 60%;
     margin: 6% 0% 0% 0%;
   }
 
   .button {
     font-size: 12px;
-    line-height: 3.0;
+    line-height: 1.4;
   }
 }
