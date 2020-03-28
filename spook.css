@@ -27,20 +27,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .title {
   color: black;
   font-size: 8vw;
-  margin: 30px 20px 30px 20px;
+  margin: 5% 2% 3% 2%;
 }
 
 #year {
-  margin-top: 20px;
+  margin-top: 2%;
 }
 #yearSelect {
-  margin-bottom: 20px;
+  margin-bottom: 2%;
 }
 
 select {
@@ -66,7 +66,7 @@ select:hover {
   border: 2px solid rgb(133, 14, 14);
 }
 
-.selectfocus {
+.select:focus {
   border: 2px solid rgb(133, 14, 14);
   box-shadow: 0 0 1px 3px rgba(149, 14, 14, 0.7);
   box-shadow: 0 0 0 3px -moz-mac-focusring;
@@ -107,7 +107,7 @@ select:hover {
   padding: 1% 2%;
   box-shadow: 5px 10px 20px crimson;
   transition: 0.8s;
-  margin: 50px;
+  margin: 6%;
 }
 
 .button:hover {
