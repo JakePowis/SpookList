@@ -109,22 +109,22 @@ select:hover {
 .button {
   cursor: pointer;
   border: solid black;
-  border-radius: 5px;
+  border-radius: 50px;
   color: rgb(119, 16, 16);
   padding: 2% 2%;
-  box-shadow: 5px 10px 20px crimson;
+  box-shadow: 5px 10px 25px crimson;
   transition: 0.8s;
   margin: 2%;
   height: 10%;
-  text-align: center;
   line-height: 1.4;
+  justify-items: center;
+  align-items: center;
   display: flex;
 }
 
 .button:hover {
   cursor: pointer;
   border: solid black;
-  border-radius: 5px;
   color: white;
   box-shadow: none;
   background-color: crimson;
@@ -134,7 +134,6 @@ select:hover {
 .button:active {
   cursor: pointer;
   border: solid black;
-  border-radius: 5px;
   color: white;
   box-shadow: none;
   background-color: crimson;
@@ -296,5 +295,8 @@ select:hover {
   .button {
     font-size: 12px;
     line-height: 1.4;
+  }
+
+  #button {
   }
 }
