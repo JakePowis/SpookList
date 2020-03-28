@@ -13,6 +13,7 @@ body {
   width: 100%;
   position: fixed;
   display: flex;
+  right: 0px;
 }
 
 .page {
@@ -95,7 +96,7 @@ select:hover {
 #image {
   max-width: 50%;
   height: auto;
-  margin: 50px;
+  margin: 4%;
 }
 
 .button {
@@ -228,7 +229,10 @@ select:hover {
 
 @media only screen and (max-width: 800px) {
   .page {
-    width: 96%;
+    width: 100%;
+    margin: 0%;
+    border-radius: 0px;
+    
   }
 
   .page2 {
@@ -237,6 +241,7 @@ select:hover {
 
   #header {
     font-size: 18px;
+    text-align: center;
   }
 
   #film {
@@ -272,7 +277,7 @@ select:hover {
   }
 
   #pic {
-    width: 36%;
+    width: 40%;
     height: auto%;
     margin: 6% 0% 0% 0%;
   }
