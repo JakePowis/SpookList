@@ -108,7 +108,8 @@ select:hover {
   box-shadow: 5px 10px 20px crimson;
   transition: 0.8s;
   margin: 6%;
-  text-align: center;;
+  text-align: center;
+  display: flex;
 }
 
 .button:hover {
@@ -205,6 +206,7 @@ select:hover {
 .dDown {
 
   font-size: 16px;
+  display: flex;
 }
 
 @media only screen and (max-width: 1200px) {
